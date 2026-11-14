@@ -6,7 +6,7 @@ Project ini bukan sekadar membuat aplikasi chat sederhana, melainkan studi kasus
 
 ## 🎯 Mengapa Project Ini Dibuat?
 
-Banyak orang bisa membuat kode chat, tapi sedikit yang paham apa yang terjadi di balik layarnya:
+Project ini fokusnya untuk mengetahui konsep dan mekanisme dibalik layarnya:
 * Mengapa butuh **IP Address** dan **Port** sekaligus?
 * Apa yang terjadi saat dua komputer jabat tangan (**TCP 3-Way Handshake**)?
 * Bagaimana sebuah Server bisa melayani banyak orang sekaligus tanpa macet (**Threading & Concurrency**)?
@@ -132,9 +132,4 @@ Apakah teks chat kita benar-benar lewat di kabel? Mari kita intip paket data nom
 
 ---
 
-## 💡 Apa yang Dipelajari dari Project Ini?
 
-* **Pola Pikir Problem Solving**: Memahami arti error seperti `Connection Refused` (apakah masalah di kabel jaringan atau servis/aplikasi tujuan yang mati).
-* **Network Encapsulation**: Bagaimana data dibungkus dari Layer Aplikasi -> Transport (TCP) -> Network (IP) -> Data Link (MAC).
-* **Concurrency**: Mengatasi batasan proses *single-threaded* menggunakan *Multi-Threading*.
-* **Packet Inspection**: Menggunakan Wireshark sebagai alat diagnosis dan audit jaringan profesional.
